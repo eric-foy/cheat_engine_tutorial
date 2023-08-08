@@ -2,6 +2,12 @@
 #include <string>
 #include <process.h>
 
+// https://www.youtube.com/watch?v=hgrIKUR5Hww
+// Cheat Engine 6.4 Tutorial Part 1: Introduction to Scan Types
+
+// https://www.youtube.com/watch?v=v-5wehWM3tE
+// Cheat Engine 6.4 Tutorial Part 2: The Importance of Value Types
+
 int main()
 {
     // cheat engine lua script: openProcess(1234)

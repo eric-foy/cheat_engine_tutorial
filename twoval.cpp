@@ -3,6 +3,9 @@
 #include <sstream>
 #include <process.h>
 
+// https://www.youtube.com/watch?v=7--i3jDgtMs
+// Cheat Engine 6.4 Tutorial Part 5: Finding Multiple Values at the Same Time
+
 int main()
 {
     // cheat engine lua script: openProcess(1234)
