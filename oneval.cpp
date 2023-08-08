@@ -4,16 +4,16 @@
 
 int main()
 {
+    // cheat engine lua script: openProcess(1234)
     std::cout << getpid() << std::endl;
     unsigned int a = 45;
-    std::cout << (void*)&a << std::endl;
+    std::cout << (void*)&a << ": " << a << std::endl;
     int i = 0;
 
     while (i != -99) {
         std::cin >> i;
         a = a + i;
-        std::cout << a << std::endl;
-        std::cout << (void*)&a << std::endl;
+        std::cout << (void*)&a << ": " << a << std::endl;
     }
 
     return 0;
