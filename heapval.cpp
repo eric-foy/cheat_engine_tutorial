@@ -16,5 +16,7 @@ int main()
         std::cout << (void*)&a << ": " << a << " -> " << *a << std::endl;
     }
 
+    delete a;
+
     return 0;
 }
